@@ -1,0 +1,9 @@
+# Deny PHP execution in uploads
+<Files "*.php">
+    Order allow,deny
+    Deny from all
+</Files>
+<Files "*.phtml">
+    Order allow,deny
+    Deny from all
+</Files>
